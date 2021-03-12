@@ -1,3 +1,22 @@
-<p>carrusel</p>
-<p>filtros</p>
-<p>productos</p>
+<div class="">
+
+    <carousel
+    [arrows]="false"
+    [arrowsOutside]="false"
+    [autoplay]="true"
+    [loop]="true"
+    [images]="images"
+    [autoplayInterval]="2500"
+    >
+    </carousel>
+
+    <div class="container-modality-filters-products">
+        <app-modality></app-modality>
+        <app-top-filters></app-top-filters>
+
+        <div class="side_filters_and_product_list">
+            <app-side-filters></app-side-filters>
+            <app-product-list></app-product-list>
+        </div>
+    </div>
+</div>

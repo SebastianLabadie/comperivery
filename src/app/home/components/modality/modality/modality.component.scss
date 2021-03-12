@@ -1,0 +1,30 @@
+:host{
+    .modality{
+        display: flex;
+        padding: 0 28px; //global padding
+        margin: 12px 0;
+        p{
+            flex:.2;
+            color: #00C8A4;
+            font-weight: 600;
+            font-size: 18px;
+        }
+        .modality_btns{
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            span{
+                background-color: #00C8A4;
+                color: white;
+                font-weight: 600;
+                font-size: 22px;
+                padding: 6px 24px;
+                border-radius: 3px;
+                box-shadow: 4px 4px 6px 0px rgba(0,0,0,0.4);
+                cursor: pointer;
+            }
+        }
+    }
+}

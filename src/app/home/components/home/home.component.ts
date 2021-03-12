@@ -8,6 +8,25 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  images = [
+    {path: 'assets/images/icons/paypal.svg'},
+    {path: 'assets/images/icons/paypal.svg'},
+    {path: 'assets/images/icons/paypal.svg'},
+    {path: 'assets/images/icons/paypal.svg'},
+    {path: 'assets/images/icons/paypal.svg'},
+    {path: 'assets/images/icons/paypal.svg'},
+    {path: 'assets/images/icons/paypal.svg'},
+    {path: 'assets/images/icons/paypal.svg'},
+    {path: 'assets/images/icons/paypal.svg'},
+    {path: 'assets/images/icons/paypal.svg'},
+    {path: 'assets/images/icons/paypal.svg'},
+    {path: 'assets/images/icons/paypal.svg'},
+     {path: 'assets/images/icons/paypal.svg'},
+      {path: 'assets/images/icons/paypal.svg'},
+       {path: 'assets/images/icons/paypal.svg'},
+        {path: 'assets/images/icons/paypal.svg'},
+]
+
   constructor() { }
 
   ngOnInit() {
