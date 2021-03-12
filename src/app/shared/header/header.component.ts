@@ -8,6 +8,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 })
 export class HeaderComponent implements OnInit {
   SearchForm: FormGroup;
+  cartCount=0;
   constructor(private formBuilder: FormBuilder,) { }
 
   ngOnInit(): void {
@@ -22,6 +23,10 @@ export class HeaderComponent implements OnInit {
     this.SearchForm = this.formBuilder.group({
       search: [''],
     });
+  }
+
+  addToCart(){
+    this.cartCount++
   }
 
    onSubmit(){
