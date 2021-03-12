@@ -1,0 +1,10 @@
+{
+    "MENU":{
+        "MYABM": "My Abm",
+        "RATES": "Rates",
+        "LAYOUT": "Layout",
+        "LAYOUT-STEPPER": "Stepper",
+        "LAYOUT-LIST": "List",
+        "LAYOUT-INFINITE_LIST": "Infinite List"
+    }
+}

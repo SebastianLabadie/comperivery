@@ -1,0 +1,10 @@
+{
+    "MENU":{
+        "MYABM": "Mi Abm",
+        "RATES": "Tarifas",
+        "LAYOUT": "Estructura",
+        "LAYOUT-STEPPER": "Paso a paso",
+        "LAYOUT-LIST": "Lista",
+        "LAYOUT-INFINITE_LIST": "Lista Infinita"
+    }
+}

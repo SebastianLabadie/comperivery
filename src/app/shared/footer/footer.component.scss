@@ -1,0 +1,56 @@
+
+:host{
+    .footer{
+        padding: 0 48px;
+    }
+    .menu-socials{
+        display: flex;
+        justify-content: space-between;
+    }
+    .socials-container{
+        position: relative;
+        flex:.25;
+        .socials{
+            position:absolute;
+            bottom: 0;
+            .socials-logos{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 8px;
+                img{
+                    width: 32px;   
+                }
+            }
+        }
+    }
+    .menu{
+        flex:1;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 15px;
+        .containers{
+            h4{
+                font-size: 18px;
+                margin-bottom:12px;
+            }
+        }
+    }
+
+    .payments-develop{
+        display: flex;
+        .payments{
+            flex: .5;
+            img{
+                width: 48px;
+                margin-right: 8px;
+            }
+        }
+        .develop{
+            flex: .5;
+            img{
+                width: 38px;
+                margin-left: 8px;
+            }
+        }
+    }
+}

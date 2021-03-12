@@ -1,0 +1,18 @@
+<div class="wrapper">
+  <div class="header">
+    <h2 class="logo">Compierivery</h2>
+    <div class="input-component">
+      <form [formGroup]="SearchForm" (submit)="onSubmit()">
+        <input type="text" formControlName="search" />
+        <button type="submit"><mat-icon>search</mat-icon></button>
+      </form>
+    </div>
+    <div class="user-actions">
+      <button class="btn btn_register">Registrarse</button>
+      <button class="btn btn_my_account">Mi cuenta</button>
+      <a mat-raised-button matBadge="4" matBadgeColor="warn" style="text-decoration: none;"
+        ><mat-icon>shopping_cart</mat-icon> Mi Carrito</a
+      >
+    </div>
+  </div>
+</div>
