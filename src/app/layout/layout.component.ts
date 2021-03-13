@@ -10,7 +10,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./layout.component.scss']
 })
 export class LayoutComponent implements OnInit {
-  menu: NbMenuItem[];
   
   constructor(
     private menuTranslator: i18nMenuTranslatorService,
@@ -20,6 +19,10 @@ export class LayoutComponent implements OnInit {
    }
 
   ngOnInit() {
+  }
+
+  scrollToTop(){
+    window.scrollTo(0,0)
   }
 
 }
